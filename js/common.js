@@ -2873,7 +2873,7 @@ Function Scroll Effects
 		});	
 		
 		$('a.ajax-link').on('click', function() {
-			//gsap.to('.header-gradient', { duration: 0.3, delay:0, opacity: 0, ease: Linear.easeNone, });
+			gsap.to('.header-gradient', { duration: 0.3, delay:0, opacity: 0, ease: Linear.easeNone, });
 			gsap.to('#clapat-logo img.white-logo, #clapat-logo img.black-logo', { duration: 0.5, delay:0, opacity: "",  ease: Linear.easeNone, });
 			gsap.to('.classic-menu .flexnav li', { duration: 0.5, delay:0, color: "", ease: Linear.easeNone, });			
 			gsap.to('.button-wrap.menu', { duration: 0.5, delay:0, color: "", boxShadow: "", ease: Linear.easeNone, });
