@@ -44,7 +44,7 @@
 	/* Title styling above the video */
 	.video-title {
 		position: absolute;
-		top: 100px; /* Adjust the position as necessary */
+		top: 50px;
 		left: 50%;
 		transform: translateX(-50%);
 		color: black; /* Change the color based on your preference */
@@ -54,9 +54,8 @@
 
 .white-video-title {
 	position: absolute;
-	top: 50%; /* Centers it vertically */
 	left: 50%;
-	transform: translate(-50%, -50%); /* Adjusts for perfect centering */
+	transform: translate(-50%); /* Adjusts for perfect centering */
 	color: white !important;
 	font-size: 4rem;
 	z-index: 10;

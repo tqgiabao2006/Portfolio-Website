@@ -3643,10 +3643,10 @@
 		position:relative;		
 		width:100%;
 		height:auto;
-		/*display:flex;
+		display:flex;
 		justify-content: center;
   		align-items: center;
-		flex-direction: column;*/
+		flex-direction: column;
 		height:auto;
 		max-height:100vh;
 	}
